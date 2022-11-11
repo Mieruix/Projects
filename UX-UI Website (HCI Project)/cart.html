@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastiesserie Checkout</title>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+  <div class="navbar" style="position: sticky; margin-top: 23.5px; padding: 8px;">
+    <a href="bakery.html">
+      <p class="nav-brand">Pastisserie</p>
+    </a>
+    <a href="bakery.html" class="nav-link active">Home</a>
+    <a href="menus.html" class="nav-link active" style="margin-left: 275px;">Menu</a>
+    <a href="cart.html">
+      <div class="cart" style="margin-right: 30px;">
+        <i class="bi bi-cart2"></i>
+        <div id="cartAmount" class="cartAmount">0</div>
+      </div>
+    </a>
+
+  </div>
+  <br>
+
+  <div id="label" class="text-center"></div>
+
+  <div class="shopping-cart" id="shopping-cart"></div>
+  <br>
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="background-color: #212529;
+    color: #c8a97e; padding: 3px; border-radius: 3px; 
+    text-decoration: none; font-size: 16px; float: right; margin-right: 100px;">
+    <i class="bi bi-chevron-bar-up">Back to Top<i class="bi bi-chevron-bar-up">
+  </button>
+  <br>
+  <br>
+</body>
+<script src="Data.js"></script>
+<script src="cart.js"></script>
+</html>
